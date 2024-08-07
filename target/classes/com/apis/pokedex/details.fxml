@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="427.0" prefWidth="547.0" style="-fx-border-color: #c49600; -fx-border-width: 5px;" styleClass="root" stylesheets="@styles/DetailsSceneStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.apis.pokedex.DetailsController">
+   <children>
+      <ImageView fx:id="pokemonImage2" fitHeight="128.0" fitWidth="158.0" layoutX="345.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="pokemonText" fill="NAVY" layoutX="122.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Text>
+      <Button fx:id="goBack" layoutX="259.0" layoutY="378.0" mnemonicParsing="false" onAction="#goBack" style="-fx-background-color: #ffdf75; -fx-background-radius: 20px; -fx-border-color: navy; -fx-border-radius: 20px; -fx-font-weight: 700;" text="Back" textFill="NAVY" />
+      <ImageView fx:id="pokemonImage3" fitHeight="150.0" fitWidth="158.0" layoutX="345.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="227.0" layoutY="30.0" prefHeight="36.0" prefWidth="105.0" text="DETAILS" textAlignment="CENTER" textFill="NAVY">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="97.0" style="-fx-font-weight: 700;" text="NAME:" textFill="NAVY" />
+      <Label layoutX="67.0" layoutY="131.0" style="-fx-font-weight: 700;" text="Attack" textFill="NAVY" />
+      <Label layoutX="67.0" layoutY="154.0" style="-fx-font-weight: 700;" text="Defense" textFill="NAVY" />
+      <Label layoutX="67.0" layoutY="177.0" style="-fx-font-weight: 700;" text="Speed" textFill="NAVY" />
+      <Label layoutX="66.0" layoutY="218.0" style="-fx-font-weight: 700;" text="Moves" textFill="NAVY" />
+      <Text fx:id="attackText" layoutX="122.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="defenseText" layoutX="122.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="speedText" layoutX="122.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="movesText" layoutX="122.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
